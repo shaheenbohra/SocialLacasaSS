@@ -1,4 +1,9 @@
 ﻿$(document).ready(function () {
+  
+        $('.clsUser').show();
+        $('.clsadmin').hide();
+   
+
     var selector = '.nav li';
 
     $(selector).on('click', function () {
